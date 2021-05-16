@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    background-color: burlywood;
+    padding: 20px;
+}
+
+
+.alinear {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 120px;
+    height: 60px;
+    background-color: white;
+}
+
+.primerafila {
+    padding-left: 235px;
+}
+
+.segundafila {
+    padding-left: 235px;
+}
+
+.tercerafila {
+    padding-left: 235px;
+}
+
+.cuartafila {
+    padding-left: 235px;
+}
+
+.box {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.imgblue {
+    width: 145px;
+    height: 145px;
+    background-color: white;
+    margin: 2px 2px; 
+}
+
+.imgred {
+    width: 145px;
+    height: 145px;
+    background-color: rgb(190, 84, 84);
+    margin: 2px 2px; 
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: rgb(190, 84, 84);
+}
