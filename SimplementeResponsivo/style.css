@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    background-color: rgb(160, 154, 154);
+}
+
+p {
+    background-color: #b8b5b5;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pcolor {
+    background-color: rgb(243, 243, 140);
+}
+
+@media only screen and (max-width: 480px) {
+    .md {
+        display: none;
+    }
+    .lg {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .sm {
+        display: none;
+    }
+    .lg {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sm {
+        display: none;
+    }
+    .md {
+        display: none;
+    }
+    .lg {
+        display: block;
+    }
+}
